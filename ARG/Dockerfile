@@ -8,5 +8,4 @@ ARG TRAINER
 RUN echo "Course name is ${COURSE},TRAINER: ${TRAINER}, Version: ${version}"
 ENV COURSE=${COURSE}
 ENV TRAINER=${TRAINER}
-ENV VERSION=${version}
 CMD ["sleep","100"]
